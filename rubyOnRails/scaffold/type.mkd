@@ -1,0 +1,12 @@
+:boolean
+:date
+:datetime
+:decimal
+:float
+:integer
+:primary_key
+:string{127} #127 is the limit
+:text
+:time
+:timestamp
+:references #reference type, add :belong_to automatically, such as user:references

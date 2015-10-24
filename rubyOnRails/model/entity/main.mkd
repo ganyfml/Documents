@@ -1,0 +1,16 @@
+#Entity
+
+Entity in Rails
+
+~~~
+class User < ActiveRecord::Base
+  #Has many relationship
+  has_many :course_to_users
+
+  #Has many courses, access though user.courses
+  has_many :courses, through: :course_to_users
+  
+  #make sure that every user has unique Email address
+  validates_uniqueness_of :user_email
+end
+~~~

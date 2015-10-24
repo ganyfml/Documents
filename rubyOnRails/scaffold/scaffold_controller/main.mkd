@@ -1,0 +1,7 @@
+#scaffold_controller
+
+Only generate controller for existing model
+
+~~~
+rails g scaffold_controller User user:string{128} description:text course:references
+~~~

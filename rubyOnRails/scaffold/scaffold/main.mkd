@@ -1,0 +1,7 @@
+#scaffold
+
+Generate mode and controller
+
+~~~
+rails g scaffold User user:string{128} description:text course:references
+~~~

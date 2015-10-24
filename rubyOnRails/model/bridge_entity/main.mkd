@@ -1,0 +1,23 @@
+#bridge_entity
+
+bridge entity that for many to many relationship
+
+~~~
+bridge entity between Course entity and User entity
+class CourseToUser < ActiveRecord::Base
+
+  #:validate => true means :course must present, eg, can not leave in blank when adding
+  belongs_to :course, :validate => true
+  
+  #means such course must be exists
+  validates :course, :presence => true
+
+  belongs_to :user, :validate => true
+  validates :user, :presence => true
+
+  #Such relationship could not be exists
+  #For example, 1 to 1 has already existed.
+  #If you want to add 1 to 1 again, action will failed
+  validates_uniqueness_of :user, :scope => :course
+end
+~~~
