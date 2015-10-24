@@ -1,6 +1,7 @@
 #mv
 
--Not case sensitive
+- Not case sensitive. 
+The OSX HFS+ filesystem is case-insensitive, so it's interpreting Assignments and assignments as the same name.
 ~~~
-mv one/ One/ #throw error
+mv 'Assignments' 'assignments'
 ~~~
