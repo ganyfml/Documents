@@ -1,0 +1,6 @@
+#mv
+
+-Not case sensitive
+~~~
+mv one/ One/ #throw error
+~~~
