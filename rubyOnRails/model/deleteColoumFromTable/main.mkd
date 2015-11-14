@@ -1,0 +1,4 @@
+rails g migration Remove[coloumName]From[modelName] colomName:data_type
+
+eg.
+rails g migration RemoveSmTimeFromSubmissions sm_time:datetime

@@ -1,0 +1,3 @@
+
+rails generate migration AddUnsubscribeKeyToUsers unsubscribe_key:string
+
