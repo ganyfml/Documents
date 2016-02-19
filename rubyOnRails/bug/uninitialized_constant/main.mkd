@@ -1,0 +1,52 @@
+Basically this can happen if you happened to call the function from the class which is not loaded with configuration when your rails console/server was started.
+
+Solution
+To resolve this problem your class has to be loaded in environment, this can be done in following way,
+
+1. Open application.rb file of your Rails project
+2. Add following line in application.rb
+
+config.autoload_paths += %W(#{config.root}/lib)
+Your application.rb will look something like,
+
+require File.expand_path('../boot', __FILE__)
+require 'rails/all'
+
+# Require the gems listed in Gemfile, including any gems
+# you've limited to :test, :development, or :production.
+Bundler.require(:default, Rails.env)
+Solution
+To resolve this problem your class has to be loaded in environment, this can be done in following way,
+
+1. Open application.rb file of your Rails project
+2. Add following line in application.rb
+
+config.autoload_paths += %W(#{config.root}/lib)
+
+Your application.rb will look something like,
+
+require File.expand_path('../boot', __FILE__)
+require 'rails/all'
+
+# Require the gems listed in Gemfile, including any gems
+# you've limited to :test, :development, or :production.
+Bundler.require(:default, Rails.env)
+
+module RubyInRailsApp
+  class Application < Rails::Application
+    # the new line added for autoload of lib
+    config.autoload_paths += %W(#{config.root}/lib)
+
+    # Settings in config/environments/* take precedence over those specified here.
+    # Application configuration should go into files in config/initializers
+    # -- all .rb files in that directory are automatically loaded.
+
+    # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
+    # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
+    # config.time_zone = 'Central Time (US & Canada)'
+
+    # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
+    # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
+    # config.i18n.default_locale = :de
+  end
+end
