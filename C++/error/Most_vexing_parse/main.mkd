@@ -1,0 +1,10 @@
+#Most vexing parse
+
+```
+  TimeKeeper time_keeper(Timer());
+```
+
+The above code is ambiguous, since it could be interpreted either as
+- a variable definition for variable time_keeper of class `TimeKeeper`, initialized with an anonymous instance of class Timer or
+- a function declaration for a function time_keeper which returns an object of type `TimeKeeper` and has a single (unnamed) parameter which is a function returning type Timer (and taking no input).
+
