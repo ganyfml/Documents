@@ -1,0 +1,2 @@
+# adds a commit to undo changes
+No history in index will be effected
