@@ -1,0 +1,41 @@
+#Document for C++ style guild
+
+#Indentation
+
+#Space
+
+##No space for constructor
+
+```
+SeqString seq ("AAA")
+```
+Above code should be written to
+
+```
+SeqString seq("AAA")
+```
+
+#Variable
+
+##Variable used only once should be merged
+
+```
+string seq_temp = "ATG"
+SeqString seq(seq_temp);
+```
+
+Above code should be written to
+
+```
+SeqString seq(string("ATG"));
+```
+
+#Naming
+
+##Test case folder name in main must be the same as the function you are do the testing
+
+```
+/main/finder/main.cpp used to test function named locate()
+The name should be changed to
+/main/locate/main.cpp
+```
