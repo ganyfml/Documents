@@ -1,0 +1,60 @@
+#Replace string in multiple files
+
+~~~
+rpl -Rwd -x'.txt' 'F' 'A' grades/
+~~~
+
+-R: recursive
+-w: whole word match
+-d: Keep modification times when replacing files
+-x'.txt' search only files ending with .txt
+replace 'F' with 'A'
+
+
+
+full list:
+-L, --license
+Show the license and exit.
+
+-xSUFFIX
+Search only files ending with SUFFIX, e.g. ''.txt''. May be specified multiple times.
+
+-i, --ignore-case
+Ignore the case of old_string.
+
+-w, --whole-words
+Make old_string match only on word boundaries.
+
+-b, --backup
+Move the original files to filename~ before replacing them.
+
+-q, --quiet
+Quiet mode.
+
+-v, --verbose
+Verbose mode.
+
+-s, --dry-run
+Simulation mode, no files are changed.
+
+-R, --recursive
+Recurse into subdirectories.
+
+-e, --escape
+Expand escape sequences in old_string and new_string. Examples of escape sequences are '\n' (new-line), '\t' (tab), '\x42' (hexadecimal number 42), '\033' (octal number 033).
+
+-p, --prompt
+Prompt for confirmation before replacing each file.
+
+-f, --force
+Ignore errors when trying to restore permissions and file ownership.
+
+-d, --keep-times
+Keep modification times when replacing files.
+
+-t, --use-tmpdir
+Use a temporary directory for storing temporary files, usually the value of the environment variable TMPDIR. The default is to put temporary files in the same directory as the file being modified.
+
+-a, --all
+Do not ignore files and directories starting with .
+

@@ -39,3 +39,7 @@ SeqString seq(string("ATG"));
 The name should be changed to
 /main/locate/main.cpp
 ```
+
+#Sequence
+
+##Code should be gathered together
