@@ -1,0 +1,118 @@
+#Format related
+```
+<br> for line break
+```
+
+```
+<hr> for horizontal line
+```
+
+##Bold
+
+```
+<p><b>This text is bold</b>.</p>
+```
+
+##Strong
+
+```
+<p><strong>This text is strong</strong>.</p>
+```
+
+##Italic
+
+```
+<p><i>This text is italic</i>.</p>
+```
+
+##Emphasized
+
+```
+<p><em>This text is emphasized</em>.</p>
+```
+
+##Small
+
+```
+<h2>HTML <small>Small</small> Formatting</h2>
+```
+
+##Marked
+
+```
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+```
+
+##Deleted
+
+```
+<p>My favorite color is <del>blue</del> red.</p>
+```
+
+##Inserted
+
+```
+<p>My favorite <ins>color</ins> is red.</p>
+```
+
+##Subscript
+
+```
+<p>This is <sub>subscripted</sub> text.</p>
+```
+
+##Superscript
+
+```
+<p>This is <sup>superscripted</sup> text.</p>
+```
+
+##Short Quotations
+
+```
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+```
+
+##Long Quotations
+
+```
+<p>Browsers usually indent blockquote elements.</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+```
+
+##Abbreviations
+
+```
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+```
+
+##Contact information
+
+```
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+```
+
+##Work Title
+
+```
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+```
+
+##Bi-Directional Override
+
+```
+<bdo dir="rtl">This text will be written from right to left</bdo>
+```
