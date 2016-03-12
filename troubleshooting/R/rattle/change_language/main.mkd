@@ -1,0 +1,7 @@
+#Change rattle language to English to avoid `XXXX`
+
+~~~
+> Sys.setenv(LANGUAGE="en")
+> library(rattle)
+> rattle()
+~~~
