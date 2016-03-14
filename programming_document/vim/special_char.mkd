@@ -1,0 +1,6 @@
+#Special char
+
+```
+^M -- Ctrl+V Ctrl+M -- carriage-return
+¬  -- \r            -- change-line
+```
