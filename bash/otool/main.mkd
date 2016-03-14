@@ -1,0 +1,8 @@
+#otool
+
+Check binary file's information
+
+~~~
+#Check shared library used by main
+otool -L main
+~~~
