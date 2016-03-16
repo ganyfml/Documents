@@ -1,0 +1,8 @@
+#Rails Server
+
+```
+//Make it visible to local computers
+rails s --binding=0.0.0.0
+//Make it only visible to yourself
+rails s
+```
