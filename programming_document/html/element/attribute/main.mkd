@@ -1,0 +1,9 @@
+#Attributes
+
+All HTML elements can have attributes
+The HTML `title` attribute provides additional "tool-tip" information
+The HTML `href` attribute provides address information for links
+The HTML `width` and `height` attributes provide size information for images
+The HTML `alt` attribute provides text for screen readers
+Always use lowercase HTML attribute names
+Always quote attributes with double quotes

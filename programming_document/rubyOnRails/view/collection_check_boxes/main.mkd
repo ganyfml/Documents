@@ -1,0 +1,10 @@
+#collection_check_boxes
+
+```
+collection_check_boxes :filter, :brand, @brands, :strip, :strip, checked: params[:filter][:brand] do |b| %>
+
+collection_check_boxes(object, method, collection, value_method, text_method, options = {}, html_options = {}, &block)
+value_method is the value in params[:object][:method]
+text_method is the value in display
+checked: params[:filter][:brand] will check all the checked box which value from value_method is in params[:object][:method]
+```

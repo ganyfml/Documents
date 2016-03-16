@@ -1,0 +1,9 @@
+Roll back the index, keep the changes in working directory as staged
+In general:
+
+git reset --mixed <commit>
+git add --all
+
+equal to
+
+git reset --soft <commit>

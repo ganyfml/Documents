@@ -1,0 +1,6 @@
+#struct
+
+- default value
+
+C++ struct does not have default value option. Use constructor instead
+

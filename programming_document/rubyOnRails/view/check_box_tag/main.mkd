@@ -1,0 +1,8 @@
+#check_box_tag
+
+```
+<%= check_box_tag "compares[]", p.id, true %>
+put value in params[:compares]
+value is p.id
+default checked? true
+```

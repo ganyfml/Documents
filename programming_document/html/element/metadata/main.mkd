@@ -1,0 +1,15 @@
+#Metadata for html
+
+The HTML `<head>` element contains meta data. Meta data are not displayed.
+
+The HTML `<head>` element is placed between the `<html>` tag and the `<body>` tag
+
+The HTML `<title>` element is meta data. It defines the HTML document's title.
+
+The title will not be displayed in the document, but might be displayed in the browser tab.
+
+The HTML `<meta>` element is also meta data. It can be used to define the character set, and other information about the HTML document.
+
+The HTML `<style>` element is used to define internal CSS style sheets.
+
+The HTML `<link>` element is used to define external CSS style sheets.
