@@ -1,0 +1,7 @@
+#Image tag
+
+Display image from `URL` or local path
+
+```
+<%= image_tag @product.image_path, size: "300x300" %>
+```
