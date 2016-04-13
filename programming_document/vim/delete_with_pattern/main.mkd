@@ -1,0 +1,5 @@
+#Delete line contains pattern
+
+```
+:g/pattern/d
+```

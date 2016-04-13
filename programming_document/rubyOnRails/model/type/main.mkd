@@ -1,0 +1,5 @@
+#Data type
+
+```
+:primary_key, :string, :text, :integer, :float, :decimal, :datetime, :time, :date, :binary, :boolean.
+```
