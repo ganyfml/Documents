@@ -1,0 +1,8 @@
+#Split
+
+Split string based on char
+
+```
+string a = "a/b"
+a.split(a, '/')
+```

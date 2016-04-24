@@ -1,0 +1,5 @@
+#Delete lines dose not contain pattern
+
+```
+:v/Pattern/d
+```
