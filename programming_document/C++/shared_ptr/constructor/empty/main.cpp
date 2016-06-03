@@ -29,4 +29,12 @@ class myClass
 int main()
 {
   shared_ptr<myClass> test;
+  if(test == nullptr)
+  {
+    cout << "empty shared_ptr \n";
+  }
+  else
+  {
+    cout << "pointer not empty \n";
+  }
 }
