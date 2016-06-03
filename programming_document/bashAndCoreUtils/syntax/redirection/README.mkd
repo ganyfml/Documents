@@ -1,0 +1,26 @@
+- a number 1 = standard out (i.e. STDOUT)
+- a number 2 = standard error (i.e. STDERR)
+- if a number isn't explicitly given, then number 1 is assumed by the shell (bash)
+
+1>filename
+   # Redirect stdout to file "filename."
+1>>filename
+   # Redirect and append stdout to file "filename."
+2>filename
+   # Redirect stderr to file "filename."
+2>>filename
+   # Redirect and append stderr to file "filename."
+&>filename
+   # Redirect both stdout and stderr to file "filename."
+   # This operator is now functional, as of Bash 4, final release.
+
+M>N
+  # "M" is a file descriptor, which defaults to 1, if not explicitly set.
+  # "N" is a filename.
+  # File descriptor "M" is redirect to file "N."
+M>&N
+  # "M" is a file descriptor, which defaults to 1, if not set.
+  # "N" is another file descriptor.
+
+http://unix.stackexchange.com/questions/70963/difference-between-2-2-dev-null-dev-null-and-dev-null-21
+http://www.tldp.org/LDP/abs/html/io-redirection.html

@@ -1,0 +1,7 @@
+http://stackoverflow.com/questions/54867/what-is-the-difference-between-old-style-and-new-style-classes-in-python
+
+- super added
+- MRO changed
+- descriptors added
+- new style class objects cannot be raised unless derived from Exception
+- __slots__ added

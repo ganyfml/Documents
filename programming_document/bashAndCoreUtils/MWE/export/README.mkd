@@ -1,0 +1,9 @@
+export makes the variable available to sub-processes.
+
+export name=value
+means that the variable name is available to any process you run from that shell process. If you want a process to make use of this variable, use export, and run the process from that shell.
+
+name=value
+means the variable scope is restricted to the shell, and is not available to any other process. You would use this for (say) loop variables, temporary variables etc.
+
+http://stackoverflow.com/questions/1158091/defining-a-variable-with-or-without-export
