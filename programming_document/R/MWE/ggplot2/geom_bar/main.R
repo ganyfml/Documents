@@ -1,5 +1,6 @@
 #!/usr/bin/env Rscript
 
 library(ggplot2)
-a = read.table('result.tsv', sep = '\t')
-ggplot(a, aes(x=V1, y=V2)) + geom_bar(stat="identity")
+t = read.table('result.tsv', sep = '\t')
+graph = ggplot(t, aes(x=V1, y=V2)) + geom_bar(stat="identity")
+ggsave(file="error_rate.png", plot = graph)

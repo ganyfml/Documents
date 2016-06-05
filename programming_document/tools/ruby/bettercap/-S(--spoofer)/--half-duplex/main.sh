@@ -4,5 +4,5 @@
 #Classic ARP attach with half duplex
 sudo bettercap --half-duplex
 
-#full duplex ICMP attach
+#half duplex ICMP attach
 sudo bettercap -S ICMP --half-duplex
