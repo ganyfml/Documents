@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 # vim: set noexpandtab tabstop=2 shiftwidth=2 softtabstop=-1 fileencoding=utf-8:
 
-import sys
+class A(object):
+	""" It is a simple class """
+	def __init__(self):
+		pass
 
-print sys.argv[0]
-print str(sys.argv[1])
+test = A()
+print test.__doc__
