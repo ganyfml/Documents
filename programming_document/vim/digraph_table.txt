@@ -1,3 +1,7 @@
+Digraphs work by pressing CTRL-K and a two-letter combination while in insert mode. For example, in insert mode type:
+
+CTRL-K a:
+
 char  digraph	hex	dec	official name ~
 ^@	NU	0x00	  0	NULL (NUL)
 ^A	SH	0x01	  1	START OF HEADING (SOH)
