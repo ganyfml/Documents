@@ -4,3 +4,8 @@
 
 f = lambda x: x**2
 print f(2)
+
+a = lambda x: True if x % 2 == 0 else False
+print a(2)
+
+print (lambda x: x+1)(2)
