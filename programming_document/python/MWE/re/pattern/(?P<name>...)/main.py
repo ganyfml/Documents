@@ -4,8 +4,6 @@
 
 import re
 
-r = 'ab ac ad ae'
-re_all = re.findall('(a)(.)', r)
-
-print len(re_all)
-print re_all
+r = re.search('(?P<first>a)(?P<second>.)', 'ab ')
+print r.group('first')
+print r.group('second')

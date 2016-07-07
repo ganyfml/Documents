@@ -4,8 +4,8 @@
 
 import re
 
-r = 'ab ac ad ae'
-re_all = re.findall('(a)(.)', r)
+r = 'abacadae'
+re_iter = re.finditer('a.', r)
 
-print len(re_all)
-print re_all
+print re_iter.next().group()
+print re_iter.next().group()
