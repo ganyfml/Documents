@@ -1,0 +1,7 @@
+BetterCap is the state of the art, modular, portable and easily extensible MITM(Men in the middle) framework
+
+Website: https://www.bettercap.org/
+Document: https://www.bettercap.org/docs/intro.html
+Install: gem install bettercap
+
+Part of MWE came from their official website

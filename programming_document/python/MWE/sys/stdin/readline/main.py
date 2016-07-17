@@ -3,5 +3,5 @@
 
 import sys
 
-for line in sys.stdin.readlines():
-	print line
+print sys.stdin.readline()
+print sys.stdin.readline()

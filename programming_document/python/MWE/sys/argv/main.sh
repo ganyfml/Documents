@@ -2,4 +2,4 @@
 # vim: set noexpandtab tabstop=2:
 
 set -v
-./main.py 111
+./main.py 111 aaa ccc
