@@ -1,0 +1,6 @@
+#Route
+
+```
+//make root address bind to a function
+root to: 'static#home'
+```
