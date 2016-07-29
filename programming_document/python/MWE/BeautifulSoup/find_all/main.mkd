@@ -7,7 +7,7 @@ Find all `li` tags which `class` is `s-result-item"`
 ```
 #With parameter
 products = soup.find_all("li", { "class" : "s-result-item" })
-num_products = len(products)
+products = soup.find_all('li', class_ = 's-result-item')
 
 #With function
 def has_title(tag):
